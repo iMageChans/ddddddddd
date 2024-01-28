@@ -3,7 +3,7 @@
    "id": "d9_main",
    "chainType": "Live",
    "bootNodes": [
-      "/ip4/3.82.214.151/tcp/40100/p2p/12D3KooWCHmAuTBL3qeJQuCYxmi96gCEyvSmHtrvzrShGrZdTuMv"
+      "/ip4/3.82.214.151/tcp/40100/p2p/12D3KooWJjxBuyFfZx5kqGPkkbVP9gxKnPbXFsr4KcQk364qfsPH"
    ],
    "telemetryEndpoints": null,
    "protocolId": "D9_main",
