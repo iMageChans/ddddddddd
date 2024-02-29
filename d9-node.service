@@ -4,11 +4,10 @@ After=network-online.target
 
 [Service]
 User=ubuntu
-ExecStart=/home/ubuntu/d9_node/target/release/d9-node --base-path /home/ubuntu/node-data --chain /home/ubuntu/d9_node/new-main-spec.json --port 40100 --ws-external --rpc-external --ws-port 40300 --rpc-port 40200 --rpc-cors=all --ws-max-connections 1000
+ExecStart=/home/ubuntu/d9_node/target/release/d9-node --base-path /home/ubuntu/node-data --chain /home/ubuntu/d9_node/new-main-spec.json --port 40100 --validator
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=4096
-Environment="NODE_KEY="
 
 [Install]
 WantedBy=multi-user.target
