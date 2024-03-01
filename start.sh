@@ -1,6 +1,6 @@
 cd ~/d9_node && cargo build --release
 git clone https://github.com/iMageChans/ddddddddd
-cp ~/d9_node/ddddddddd/main-spec.json ~/d9_node/
+cp ~/d9_node/ddddddddd/new-main-spec.json ~/d9_node/
 sudo cp ~/d9_node/ddddddddd/d9-node.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable d9-node.service
